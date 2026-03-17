@@ -23,6 +23,10 @@ public class Student {
     
   }
 
+  public String studentName() {
+    return studentName;
+  }
+
   public String displayScores() {
     return studentName + " average score is " + getAverage() + " which is " + displayLetterGrade();
   }
